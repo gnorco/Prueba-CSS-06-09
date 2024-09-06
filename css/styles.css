@@ -1,10 +1,17 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
+
+header{
+    border-bottom: 1px solid #0002;
+}
+
 
 nav{
     display: flex;
     justify-content:space-between;
+    align-items: center;
 }
 
 .lista-izquierda{
@@ -27,9 +34,10 @@ h2{
 .container{
     width: 250px;
     height: 250px;
-    background-color: #888;
+    border: 1px solid #000;
     margin-left: 100px;
     margin-top: 60px;
+    border-radius: 5px;
 }
 
 #img_perfil{
@@ -37,6 +45,7 @@ h2{
     height: 50px;
     background-color: #48e;
     margin-left:10px ;
+    margin-right: 10px;
     border-radius: 50%;
 }
 
@@ -57,5 +66,102 @@ h2{
 
 .cajas{
     display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#img_dino{
+    width: 240px;
+    height: 100px;
+    background: url(/img/dino.jpg);
+    background-size: cover;
+    border-radius: px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    margin-left: 5px;
+    margin-top: 10px;
+} 
+
+h1{
+    display: inline;
+    color: #fff;
+    margin-left: 10px;
+}
+
+h1:hover{
+    text-decoration: underline;
+}
+
+#img_programacion{
+    width: 240px;
+    height: 100px;
+    background: url(/img/code.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    border-radius: px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#programacion{
+    color: #ffff;
+}
+
+.folder-solid{
+    width: 30px;
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.folder{
+    margin-top: 100px;
+    width: 250px;
+    display: flex;
+    border-top: 1px solid #0008;
+    justify-content: end;
+    align-items: end;
+}
+
+ul{
+    list-style: none;
+}
+
+
+#barra-inicio{
+    width: 300px;
+    border-right: 1px solid #0005;
+    border-bottom: 1px solid #0005;
+    display: flex;
     
 }
+
+.house-solid, .calendar-regular{
+    width: 15px;
+    height: 15px;
+    margin-right:5px;
+}
+
+
+#barra{
+    
+    width: 300px;
+    border-right: 1px solid #0005;
+    border-bottom: 1px solid #0005;
+    display: flex;  
+}
+
+.item-list{
+    margin-top:2px;
+    text-decoration: none;
+    color:#000;
+}
+
+.item-list:hover{
+    text-decoration: underline;
+}
+
